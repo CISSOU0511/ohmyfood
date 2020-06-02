@@ -1,6 +1,12 @@
 header{	
 	width:100%
 }
+footer{
+	display:flex;
+	background-color:#579C87;
+	color:#FDCB46;
+	justify-content:space-between;
+}
 h1{
 	display:flex;
 	justify-content:center;
@@ -10,4 +16,7 @@ h1{
 }
 #note>h2{
 	font-family:dancing script, sans-serif;
+}
+#menu_1{
+	color:red;
 }
