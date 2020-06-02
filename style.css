@@ -14,9 +14,32 @@ h1{
 	color:#FDCB46;
 	width:100%;	
 }
-#note>h2{
-	font-family:dancing script, sans-serif;
-}
+
 #menu_1{
-	color:red;
+	background-color:#FCDFDB;
+}
+#menu_2{
+	background-color:#FFF5FE;
+}
+#menu_3{
+	background-color:#EDEFEF;
+}
+#menu_4{
+	background-color:#FDFFFD.
+}
+#note{
+	@font-face{
+	font-family:"Devonshire-Regular";
+	src:local(C:\Users\Cécile\Documents\Git\ohmyfood\@font-face)
+	url:(format".ttf");
+	}
+}
+#prochainement{
+	display:flex;
+	justify-content:center;
+	background-color:#579C87;
+	color:#FDCB46;
+}
+ul{
+	list-style-type:none;
 }
