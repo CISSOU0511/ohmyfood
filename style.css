@@ -1,0 +1,13 @@
+header{	
+	width:100%
+}
+h1{
+	display:flex;
+	justify-content:center;
+	background-color:#579C87;
+	color:#FDCB46;
+	width:100%;	
+}
+#note>h2{
+	font-family:dancing script, sans-serif;
+}
