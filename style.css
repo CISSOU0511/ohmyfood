@@ -14,7 +14,6 @@ h1{
 	color:#FDCB46;
 	width:100%;	
 }
-
 #menu_1{
 	background-color:#FCDFDB;
 }
@@ -25,15 +24,35 @@ h1{
 	background-color:#EDEFEF;
 }
 #menu_4{
-	background-color:#FDFFFD.
+	background-color:#FDFFFD;
 }
 #note{
-	@font-face{
-	font-family:"Devonshire-Regular";
-	src:local(C:\Users\Cécile\Documents\Git\ohmyfood\@font-face)
-	url:(format".ttf");
-	}
+	font-family:Devonshire;
+	font-size:20px;
 }
+#menu{
+	font-family:merienda; 
+	}
+#chic>h2{
+	color:#C67412;
+	font-family:Roboto Slab;
+}
+#delice>h2{
+	color:#0228DD;
+	font-family:Alex Brush;
+}
+#delice>h3{
+	color:#0228DD;	
+	font-family:merienda;
+}
+#palette>h2{
+	color:#3D923A;
+	font-family:merienda;
+}
+#palette>h3{
+	color:#3D923A;
+	font-family:merienda;
+}	
 #prochainement{
 	display:flex;
 	justify-content:center;
@@ -42,4 +61,24 @@ h1{
 }
 ul{
 	list-style-type:none;
+}
+#page{
+	display:flex;
+	flex-direction:column;
+	background-color:#FCDFDB;
+}
+#page_1{
+	display:flex;
+	flex-direction:column;
+	background-color:#FFF5FE;	
+}
+#page_2{
+	display:flex;
+	flex-direction:column;
+	background-color:#EDEFEF;
+}
+#page_3{
+	display:flex;
+	flex-direction:column;
+	background-color:#FDFFFD;
 }
