@@ -26,7 +26,7 @@ h1{
 #page{
 	display:flex;
 	flex-direction:column;
-	background-color:#FCDFDB;
+	background-color:#FCDFDB;	
 }
 #page_1{
 	display:flex;
@@ -93,13 +93,16 @@ h3{
 	display:flex;
 	justify-content:center;
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);	
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 	font-family:Roboto;
 }
 #delice>h2{
 	display:flex;
 	justify-content:center;
 	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
-	color:#0228DD;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 	font-family:Alex Brush;
 }
 #delice>h3{
@@ -110,7 +113,8 @@ h3{
 	display:flex;
 	justify-content:center;
 	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
-	color:#3D923A;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
 	font-family:merienda;
 }
 #palette>h3{
@@ -121,7 +125,16 @@ h3{
 	display:flex;
 	justify-content:center;
 	background-color:#579C87;
-	color:#FFCE00;
+	color:#FFCE00;	
+}
+#entree{
+	color:#C77529;	
+}
+#plat{
+	color:#AF5D9B;
+}
+#dessert{
+	color:#7930D3;
 }
 ul{
 	list-style-type:none;
