@@ -21,6 +21,7 @@ h1{
 	display:flex;
 	justify-content:center;
 	background-color:#FCDFDB;
+	color:#3D1319;
 	
 }
 #page{
@@ -42,6 +43,18 @@ h1{
 	display:flex;
 	flex-direction:column;
 	background-color:#FDFFFD;
+}
+#page_1>h3{
+	color:#C77529;
+	font-family:roboto;
+}
+#page_2>h3{
+	font-family:merienda;
+	color:#0228DD;
+}
+#page_3>h3{
+	font-family:merienda;
+	color:#3D923A;
 }
 #menu_1{
 	background-color:#FCDFDB;
@@ -68,17 +81,43 @@ h1{
 	justify-content:center;
 	font-family:merienda; 
 }
+#note>a{
+	background:#410D16;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+#chic>a{
+	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 #chic{
 	display:flex;
-	justify-content:center;	
+	justify-content:center;
+	font-family:roboto;
+	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+#delice>a{
+	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 }
 #delice{
 	display:flex;	
 	justify-content:center;
+	font-family:Alex Brush;
+}
+#palette>a{
+	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
 }
 #palette{
 	display:flex;
 	justify-content:center;
+	font-family:merienda;
 }
 h3{
 	display:flex;
