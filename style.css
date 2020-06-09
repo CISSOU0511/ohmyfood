@@ -1,15 +1,39 @@
- @font-face{
-		font-family:"Baskerville";
-		src: url("fonts/LibreBaskerville-Regular.otf");		
-	}
- header{	
-	width:100%
+@font-face{
+	font-family:"Baskerville";
+	src: url("fonts/LibreBaskerville-Regular.otf");		
+}
+@font-face{
+	font-family:"devonshire";
+	src: url("fonts/Devonshire-Regular.ttf");
+}
+@font-face{
+	font-family:Dancing;
+	src: url("fonts/DancingScript.ttf");
+}
+@font-face{
+	font-family:merienda;
+	src: url("fonts/Merienda-Regular.ttf");
+}
+@font-face{
+	font-family:caveat;
+	src: url("fonts/caveat-regular.ttf");
+}
+#bloc{
+	display:flex;
+	flex-direction:column;	
+	align-items:center;
+}
+a{
+	text-decoration:none;	
+}
+header{	
+	width:100%;	
 }
 footer{
 	display:flex;
 	background-color:#579C87;
 	color:#FFCE00;
-	justify-content:space-between;
+	justify-content:space-between;	
 }
 h1{
 	display:flex;
@@ -18,39 +42,55 @@ h1{
 	color:#FFCE00;
 	width:100%;	
 }
-a{
-	text-decoration:none;
-}
-#couleur{
-	background-color:#FADBD6;
-}
-#musique{
+/*fin de header*/
+#menu{
 	display:flex;
 	justify-content:center;
-	background-color:#FCDFDB;	
-}
-#musique img{
-	width:10%;	
+	font-family:merienda; 
 }
 #page{
 	display:flex;
 	flex-direction:column;
-	background-color:#FCDFDB;	
+	background-color:#FCDFDB;
+	transition-property:transform, opacity;
+	box-shadow:	0px 0px 8px 6px #E8E8E8;
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function: linear;
+	width:500px;
 }
 #page_1{
 	display:flex;
 	flex-direction:column;
-	background-color:#FFF5FE;	
+	background-color:#FFF5FE;
+	transition-property:transform, opacity;
+	box-shadow:	0px 0px 8px 6px #E8E8E8;
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function: linear;
+	width:500px;
 }
 #page_2{
 	display:flex;
 	flex-direction:column;
 	background-color:#EDEFEF;
+	transition-property:transform, opacity;
+	box-shadow:	0px 0px 8px 6px #E8E8E8;
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function: linear;
+	width:500px;
 }
 #page_3{
 	display:flex;
 	flex-direction:column;
 	background-color:#FDFFFD;
+	transition-property:transform, opacity;
+	box-shadow:	0px 0px 8px 6px #E8E8E8;
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function: linear;
+	width:500px;
 }
 #page_1>h3{
 	color:#C77529;
@@ -64,48 +104,87 @@ a{
 	font-family:merienda;
 	color:#3D923A;
 }
-#menu_1{
-	background-color:#FCDFDB;
-	font-family:merienda;
+/*fin de index*/
+h3{
+	display:flex;
+	justify-content:center;
 }
-#menu_2{
-	font-family:baskerville;
-	background-color:#FFF5FE;	
+ul{
+	list-style-type:none;
 }
-#menu_3{
-	background-color:#EDEFEF;
-	font-family:merienda;
+#couleur{
+	background-color:#FADBD6;
 }
-#menu_4{
-	background-color:#FDFFFD;
-	font-family:merienda;
+#musique{
+	display:flex;
+	justify-content:center;
+	background-color:#FCDFDB;	
+}
+#musique img{
+	width:5%;	
 }
 #note{
 	font-family:Devonshire;
 	font-size:20px;
-}
-#menu{
-	display:flex;
-	justify-content:center;
-	font-family:merienda; 
 }
 #note>a{
 	background:#410D16;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
-#chic>a{
-	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+.trait{
+	width:30%;
+	display:flex;	
 }
-#chic{
+#note{
+	color:#410D16;
+	display:flex;
+	justify-content:center;
+}
+#menu_1{
+	background-color:#FCDFDB;
+	font-family:merienda;
+}
+/*fin de note*/
+#menu_2{
+	font-family:baskerville;
+	background-color:#FFF5FE;	
+}
+.losange{
+	width:30%;
+	display:flex;
+}
+#chic>a{
 	display:flex;
 	justify-content:center;
 	font-family:roboto;
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+}
+#chic{
+	display:flex;
+	justify-content:center;	
+	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	-webkit-background-clip:text;
+}
+#entree{
+	color:#C77529;	
+}
+#plat{
+	color:#AF5D9B;
+}
+#dessert{
+	color:#7930D3;
+}
+/*fin de chic*/
+.virgule{
+	width:30%;
+	display:flex;
+}
+#menu_3{
+	background-color:#EDEFEF;
+	font-family:merienda;
 }
 #delice>a{
 	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
@@ -115,7 +194,28 @@ a{
 #delice{
 	display:flex;	
 	justify-content:center;
-	font-family:Alex Brush;
+	font-family:Dancing;
+}
+#delice>h2{
+	display:flex;
+	justify-content:center;
+	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	font-family:dancing;
+}
+#delice>h3{
+	color:#0228DD;	
+	font-family:merienda;
+}
+/*fin de delice*/
+#menu_4{
+	background-color:#FDFFFD;
+	font-family:merienda;
+}
+.vague{
+	display:flex;
+	width:30%;
 }
 #palette>a{
 	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
@@ -125,35 +225,6 @@ a{
 #palette{
 	display:flex;
 	justify-content:center;
-	font-family:merienda;
-}
-h3{
-	display:flex;
-	justify-content:center;
-}
-#note{
-	color:#410D16;
-	display:flex;
-	justify-content:center;
-}
-#chic>h2{
-	display:flex;
-	justify-content:center;
-	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);	
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
-	font-family:Roboto;
-}
-#delice>h2{
-	display:flex;
-	justify-content:center;
-	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
-	font-family:Alex Brush;
-}
-#delice>h3{
-	color:#0228DD;	
 	font-family:merienda;
 }
 #palette>h2{
@@ -167,7 +238,8 @@ h3{
 #palette>h3{
 	color:#3D923A;
 	font-family:merienda;
-}	
+}
+/*fin de palette*/
 #prochainement{
 	display:flex;
 	justify-content:center;
@@ -177,17 +249,6 @@ h3{
 	width:50%;
 	margin-right:auto;
 	margin-left:auto;
-}
-#entree{
-	color:#C77529;	
-}
-#plat{
-	color:#AF5D9B;
-}
-#dessert{
-	color:#7930D3;
-}
-ul{
-	list-style-type:none;
+	font-size:30px;
 }
 
