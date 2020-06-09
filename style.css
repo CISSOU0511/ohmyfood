@@ -1,4 +1,8 @@
-header{	
+ @font-face{
+		font-family:"Baskerville";
+		src: url("fonts/LibreBaskerville-Regular.otf");		
+	}
+ header{	
 	width:100%
 }
 footer{
@@ -14,15 +18,19 @@ h1{
 	color:#FFCE00;
 	width:100%;	
 }
+a{
+	text-decoration:none;
+}
 #couleur{
 	background-color:#FADBD6;
 }
 #musique{
 	display:flex;
 	justify-content:center;
-	background-color:#FCDFDB;
-	color:#3D1319;
-	
+	background-color:#FCDFDB;	
+}
+#musique img{
+	width:10%;	
 }
 #page{
 	display:flex;
@@ -61,8 +69,8 @@ h1{
 	font-family:merienda;
 }
 #menu_2{
-	background-color:#FFF5FE;
-	font-family:roboto;
+	font-family:baskerville;
+	background-color:#FFF5FE;	
 }
 #menu_3{
 	background-color:#EDEFEF;
@@ -165,6 +173,10 @@ h3{
 	justify-content:center;
 	background-color:#579C87;
 	color:#FFCE00;	
+	margin-bottom:50px;
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
 }
 #entree{
 	color:#C77529;	
