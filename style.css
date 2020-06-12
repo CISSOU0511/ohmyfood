@@ -36,6 +36,8 @@ footer{
 	color:#FFCE00;
 	justify-content:space-between;
 	font-size:20px;
+	margin-left:50px;
+	margin-right:75px;
 }
 h1{
 	display:flex;
@@ -48,63 +50,83 @@ h1{
 #menu{
 	display:flex;
 	justify-content:center;
-	font-family:merienda; 
+	font-family:merienda;
+	font-size:30px;
 }
-#page{
+#page {
 	display:flex;
 	flex-direction:column;
-	background-color:#FCDFDB;
-	/*transition-property:transform, opacity;
+	background-color:#FCDFDB;	
+	transition-property:transform, opacity;
 	box-shadow:	0px 0px 8px 6px #E8E8E8;
 	transition-duration:500ms;
 	transition-delay:700ms;
-	transition-timing-function: linear;*/
+	transition-timing-function: linear;
 	width:500px;
+	height:600px;
+	margin-bottom:50px;
+	margin-top:50px;
+	justify-content:center;
 }
 #page_1{
 	display:flex;
 	flex-direction:column;
 	background-color:#FFF5FE;
-	/*transition-property:transform, opacity;
+	transition-property:transform, opacity;
 	box-shadow:	0px 0px 8px 6px #E8E8E8;
 	transition-duration:500ms;
 	transition-delay:700ms;
-	transition-timing-function: linear;*/
+	transition-timing-function:linear;
 	width:500px;
+	height:600px;
+	margin-bottom:50px;
+	margin-top:50px;
+	justify-content:center;
 }
 #page_2{
 	display:flex;
 	flex-direction:column;
 	background-color:#EDEFEF;
-	/*transition-property:transform, opacity;
+	transition-property:transform, opacity;
 	box-shadow:	0px 0px 8px 6px #E8E8E8;
 	transition-duration:500ms;
 	transition-delay:700ms;
-	transition-timing-function: linear;*/
+	transition-timing-function:linear;
 	width:500px;
+	height:600px;
+	margin-bottom:50px;
+	margin-top:50px;
+	justify-content:center;
 }
 #page_3{
 	display:flex;
 	flex-direction:column;
 	background-color:#FDFFFD;
-	/*transition-property:transform, opacity;
+	transition-property:transform, opacity;
 	box-shadow:	0px 0px 8px 6px #E8E8E8;
 	transition-duration:500ms;
 	transition-delay:700ms;
-	transition-timing-function: linear;*/
+	transition-timing-function:linear;
 	width:500px;
+	height:600px;
+	margin-bottom:50px;
+	margin-top:50px;
+	justify-content:center;
 }
 #page_1>h3{
 	color:#C77529;
 	font-family:roboto;
+	font-size:30px;
 }
 #page_2>h3{
 	font-family:merienda;
 	color:#0228DD;
+	font-size:30px;
 }
 #page_3>h3{
 	font-family:merienda;
 	color:#3D923A;
+	font-size:30px;
 }
 /*fin de index*/
 .titre_1, .titre_2, .titre_3{
@@ -115,32 +137,47 @@ h1{
 h3{
 	display:flex;
 	justify-content:center;
+	font-size:25px;
 }
-ul{
+.liste{
 	list-style-type:none;
 }
-ul>li{
-	display:flex;	
+p{
+	font-size:20px;	
+}
+.entree{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.prix{
+	display:flex;
+	margin-right:50px;
+}
+.plat{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.dessert{
+	margin-left:50px;
 }
 #couleur{	
 	background-color:#FADBD6;
 	width:90%;	
-	margin-bottom:100px;
+	margin-bottom:50px;
 	margin-left:50px;
 	margin-right:50px;
-}
-p{
-	display:flex;
-	justify-content:center;
-	font-size:50px;	
 }
 #musique{
 	display:flex;
 	justify-content:center;
-	background-color:#FCDFDB;	
+	background-color:#FCDFDB;		
 }
 #musique img{
-	width:5%;	
+	width:8%;	
 }
 #note{
 	font-family:Devonshire;
@@ -160,9 +197,17 @@ p{
 	margin-left:40px;
 	margin-right:40px;
 }
+#note>h2{
+	margin-top:0px;	
+}
 #menu_1{
 	background-color:#FCDFDB;
-	font-family:merienda;
+	font-family:merienda;	
+}
+h2{
+	display:flex;
+	font-size:40px;
+	justify-content:center;
 }
 /*fin de note*/
 #menu_2{
@@ -186,13 +231,14 @@ p{
 #chic>h2{
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color:transparent;	
 }
 #chic{
 	display:flex;
 	justify-content:center;	
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
+	font-size:30px;
 }
 #entree{
 	color:#C77529;	
@@ -223,6 +269,7 @@ p{
 	display:flex;	
 	justify-content:center;
 	font-family:Dancing;
+	font-size:30px;
 }
 #delice>h2{
 	display:flex;
@@ -230,12 +277,13 @@ p{
 	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	font-family:dancing;
+	font-family:dancing;	
 }
 #delice>h3{
 	color:#0228DD;	
 	font-family:merienda;
 }
+
 /*fin de delice*/
 #menu_4{
 	background-color:#FDFFFD;
@@ -256,6 +304,7 @@ p{
 	display:flex;
 	justify-content:center;
 	font-family:merienda;
+	font-size:30px;
 }
 #palette>h2{
 	display:flex;
@@ -263,7 +312,7 @@ p{
 	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
-	font-family:merienda;
+	font-family:merienda;	
 }
 #palette>h3{
 	color:#3D923A;
@@ -280,5 +329,11 @@ p{
 	margin-right:auto;
 	margin-left:auto;
 	font-size:30px;
+}
+#mentions{
+	margin-left:50px;
+}
+#contact{
+	margin-right:50px;
 }
 
