@@ -53,65 +53,77 @@ h1{
 	font-family:merienda;
 	font-size:30px;
 }
-#page {
+#page{
 	display:flex;
 	flex-direction:column;
 	background-color:#FCDFDB;	
 	transition-property:transform, opacity;
-	box-shadow:	0px 0px 8px 6px #E8E8E8;
-	transition-duration:500ms;
-	transition-delay:700ms;
-	transition-timing-function: linear;
+	box-shadow:0px 0px 8px 6px #E8E8E8;	
 	width:500px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
 	justify-content:center;
+}
+#page:hover{
+	transform:scale(1.1);
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function: linear;
 }
 #page_1{
 	display:flex;
 	flex-direction:column;
 	background-color:#FFF5FE;
 	transition-property:transform, opacity;
-	box-shadow:	0px 0px 8px 6px #E8E8E8;
-	transition-duration:500ms;
-	transition-delay:700ms;
-	transition-timing-function:linear;
+	box-shadow:0px 0px 8px 6px #E8E8E8;		
 	width:500px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
 	justify-content:center;
+}
+#page_1:hover{
+	transform:scale(1.1);
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function:linear;
 }
 #page_2{
 	display:flex;
 	flex-direction:column;
 	background-color:#EDEFEF;
 	transition-property:transform, opacity;
-	box-shadow:	0px 0px 8px 6px #E8E8E8;
-	transition-duration:500ms;
-	transition-delay:700ms;
-	transition-timing-function:linear;
+	box-shadow:0px 0px 8px 6px #E8E8E8;
 	width:500px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
 	justify-content:center;
 }
-#page_3{
-	display:flex;
-	flex-direction:column;
-	background-color:#FDFFFD;
-	transition-property:transform, opacity;
-	box-shadow:	0px 0px 8px 6px #E8E8E8;
+#page_2:hover{
+	transform:scale(1.1);
 	transition-duration:500ms;
 	transition-delay:700ms;
 	transition-timing-function:linear;
+}
+#page_3{
+	display:flex;
+	flex-direction:column;
+	background-color:#FDFFFD;	
+	transition-property:transform, opacity;
+	box-shadow:0px 0px 8px 6px #E8E8E8;		
 	width:500px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
 	justify-content:center;
+}
+#page_3:hover{
+	transform:scale(1.1);
+	transition-duration:500ms;
+	transition-delay:700ms;
+	transition-timing-function:linear;
 }
 #page_1>h3{
 	color:#C77529;
@@ -189,7 +201,7 @@ p{
 #note>a{
 	background:#410D16;
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color:transparent;	
 }
 .trait{
 	width:30%;
@@ -275,6 +287,28 @@ h2{
 	color:#7930D3;
 }
 /*fin de chic*/
+#couleur_2{
+	background-color:#EDEFEF;
+	width:90%;
+	margin-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.entree_2{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.plat_2{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.dessert_2{
+	margin-left:50px;
+}
 .virgule{
 	width:30%;
 	display:flex;
@@ -308,8 +342,32 @@ h2{
 	color:#0228DD;	
 	font-family:merienda;
 }
-
 /*fin de delice*/
+#couleur_3{
+	background-color:#FDFFFD;
+}
+.entree_3{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.plat_3{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.dessert_3{
+	margin-left:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:50px;
+}
+.prix{
+	
+}
 #menu_4{
 	background-color:#FDFFFD;
 	font-family:merienda;
@@ -353,12 +411,42 @@ h2{
 	width:50%;
 	margin-right:auto;
 	margin-left:auto;
-	font-size:30px;
+	font-size:30px;	
+}
+#mention{
+	color:#FFCE00;	
+}
+#mention>h2{
+	text-decoration:underline;
+	text-decoration-color:black;
+}
+span{
+	display:flex;
+	justify-content:center;
+	color:#FFCE00;
+	font-size:20px;
+}
+.info{
+	color:#FFCE00;
+	text-decoration:underline;
+	text-decoration-color:black;
 }
 #mentions{
 	margin-left:50px;
 }
 #contact{
 	margin-right:50px;
+}
+@media all and (max-width:600px){
+	#bloc_1{
+		width:80%;
+		display:flex;
+		flex-direction:column;		
+	}
+#bloc_2{
+	width:80%;
+		display:flex;
+		flex-direction:column;	
+	}
 }
 
