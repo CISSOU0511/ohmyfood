@@ -32,12 +32,41 @@ header{
 }
 footer{
 	display:flex;
-	background-color:#579C87;
-	color:#FFCE00;
+	background-color:#579C87;	
 	justify-content:space-between;
 	font-size:20px;
 	margin-left:50px;
-	margin-right:75px;
+	margin-right:75px;	
+}
+footer a:visited{
+	color:#FFCE00;
+}
+footer a{
+	color:#FFCE00;
+}
+#mention{
+	color:#FFCE00;	
+}
+#mention>h2{
+	text-decoration:underline;
+	text-decoration-color:black;
+}
+span{
+	display:flex;
+	justify-content:center;
+	color:#FFCE00;
+	font-size:20px;
+}
+.info{
+	color:#FFCE00;
+	text-decoration:underline;
+	text-decoration-color:black;
+}
+#mentions{
+	margin-left:50px;
+}
+#contact{
+	margin-right:50px;
 }
 h1{
 	display:flex;
@@ -188,8 +217,19 @@ p{
 	justify-content:center;
 	background-color:#FCDFDB;		
 }
-#musique img{
+#musique img{	
 	width:8%;	
+}
+#titre_4 #musique{
+	display:block;
+	width:50%;
+}
+#titre_4 #musique img{
+	float:right;
+	width:7%;
+}
+#titre_4>h2{
+	width:50%;
 }
 #note{
 	font-family:Devonshire;
@@ -221,6 +261,11 @@ h2{
 	font-size:40px;
 	justify-content:center;
 }
+#titre_4{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
 /*fin de note*/
 #couleur_1{
 	width:90%;
@@ -229,15 +274,12 @@ h2{
 	margin-left:50px;
 	margin-right:50px;
 }
-.titre_1>h3{
-	font-size:20px;
-}
 #menu_2{
 	font-family:baskerville;
 	background-color:#FFF5FE;	
 }
 .losange{
-	width:30%;
+	width:25%;
 	display:flex;
 	margin-left:40px;
 	margin-right:40px;
@@ -413,30 +455,7 @@ h2{
 	margin-left:auto;
 	font-size:30px;	
 }
-#mention{
-	color:#FFCE00;	
-}
-#mention>h2{
-	text-decoration:underline;
-	text-decoration-color:black;
-}
-span{
-	display:flex;
-	justify-content:center;
-	color:#FFCE00;
-	font-size:20px;
-}
-.info{
-	color:#FFCE00;
-	text-decoration:underline;
-	text-decoration-color:black;
-}
-#mentions{
-	margin-left:50px;
-}
-#contact{
-	margin-right:50px;
-}
+
 @media all and (max-width:600px){
 	#bloc_1{
 		width:80%;
