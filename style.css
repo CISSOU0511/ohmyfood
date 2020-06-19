@@ -204,11 +204,38 @@ h1{
 .titre_1 h3{
 	font-size:25px;
 }
+.titre_1 h3{
+  position: relative;
+}
+.titre_1 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+.titre_1 h3:hover {
+  background-size: 100% 100%;
+}
 .titre_2 h3{
 	font-size:25px;
 }
+.titre_2 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+.titre_2 h3:hover {
+  background-size: 100% 100%;
+}
 .titre_3 h3{
 	font-size:25px;
+}
+.titre_3 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+.titre_3 h3:hover {
+  background-size: 100% 100%;
 }
 .liste{	
 	list-style-type:none;
