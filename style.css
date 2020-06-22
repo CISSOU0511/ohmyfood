@@ -583,14 +583,42 @@ h2{
 }
 @media all and (max-width:600px){
 	#bloc_1{
-		width:80%;
-		display:flex;
-		flex-direction:column;		
-	}
-#bloc_2{
-	width:80%;
+			width:100;
+			display:flex;
+			flex-direction:column;		
+		}
+	#bloc_2{
+		width:100%;
 		display:flex;
 		flex-direction:column;	
+		}
+	#couleur{
+		margin-left:25px;
+		}
+	#couleur_1{
+		margin-left:25px;
+	}	
+	#titre_4 #musique img{
+		width:15%;
+	}	
+	#note h2{
+		font-size:30px;
+		margin-top:0px;
+	}
+	p{
+		font-size:15px;
+	}
+	.titre_1 h3{
+		font-size:15px;
+	}
+	.titre_2 h3{
+		font-size:15px;
+	}
+	.titre_3 h3{
+		font-size:15px;
+	}
+	.trait{
+		width:20%;
 	}
 }
 
