@@ -582,46 +582,6 @@ h2{
 	font-size:30px;
 }
 @media all and (max-width:600px){
-	#bloc_1{
-			width:100%;
-			display:flex;
-			flex-direction:column;		
-		}
-	#bloc_2{
-		width:100%;
-		display:flex;
-		flex-direction:column;	
-		}
-	#couleur{
-		margin-left:25px;
-		}
-	#couleur_1{
-		margin-left:25px;
-	}	
-	#titre_4 #musique img{
-		width:15%;
-	}	
-	#note h2{
-		font-size:30px;
-		margin-top:0px;
-	}
-	p{
-		font-size:15px;
-	}
-	.titre_1 h3{
-		font-size:15px;
-	}
-	.titre_2 h3{
-		font-size:15px;
-	}
-	.titre_3 h3{
-		font-size:15px;
-	}
-	.trait{
-		width:20%;
-	}
-}
-@media all and (max-width:360px){
 	header{
 		font-size:30px;
 	}
@@ -641,7 +601,7 @@ h2{
 	#page_1{ 
 		width:100%;
 	}
-	 #page_2{ 
+	#page_2{ 
 	 width:100%;
 	}
 	#page_3{
@@ -660,7 +620,7 @@ h2{
 		margin-left:25px;
 	}	
 	#titre_4 #musique img{
-		width:20%;
+		width:20%;		
 	}	
 	#note h2{
 		font-size:25px;
@@ -670,30 +630,55 @@ h2{
 		font-size:20px;
 	}
 	p{
-		font-size:10px;
+		font-size:15px;
 	}
 	.titre_1 h3{
-		font-size:10px;
+		font-size:15px;
+		display:flex;
+		justify-content:center;
 	}
 	.titre_2 h3{
-		font-size:10px;
+		font-size:15px;
+		display:flex;
+		justify-content:center;
 	}
 	.titre_3 h3{
-		font-size:10px;
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	.titre_1{
+		display:flex;
+		flex-direction:column;		
+	}
+	.titre_2{
+		display:flex;
+		flex-direction:column;	
+	}
+	.titre_3{
+		display:flex;
+		flex-direction:column;
 	}
 	.trait{
-		width:10%;
+		width:50%;
 	}
+	.losange{
+		width:50%;
+	}	
+	.virgule{
+		width:50%;
+	}	
+	.vague{
+		width:50%;
+	}		
 	#prochainement{
 		width:70%;
 	}
 	#mentions{
-		margin-left:0px;
+		margin-left:10px;
 	}
 	#contact{
-		margin-right:0px;
+		margin-right:10px;
 	}
 }
-
-
 
