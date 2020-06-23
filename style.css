@@ -583,7 +583,7 @@ h2{
 }
 @media all and (max-width:600px){
 	#bloc_1{
-			width:100;
+			width:100%;
 			display:flex;
 			flex-direction:column;		
 		}
@@ -621,4 +621,79 @@ h2{
 		width:20%;
 	}
 }
+@media all and (max-width:360px){
+	header{
+		font-size:30px;
+	}
+	#bloc_1{
+			width:100%;
+			display:flex;
+			flex-direction:column;		
+		}
+	#bloc_2{
+		width:100%;
+		display:flex;
+		flex-direction:column;	
+		}
+	#page{
+		width:100%;
+	}
+	#page_1{ 
+		width:100%;
+	}
+	 #page_2{ 
+	 width:100%;
+	}
+	#page_3{
+		width:100%;
+	}
+	h2{
+		font-size:30px;
+	}
+	#page h3{
+		font-size:30px;
+	}
+	#couleur{
+		margin-left:25px;
+		}
+	#couleur_1{
+		margin-left:25px;
+	}	
+	#titre_4 #musique img{
+		width:20%;
+	}	
+	#note h2{
+		font-size:25px;
+		margin-top:0px;
+	}
+	#chic h2{
+		font-size:20px;
+	}
+	p{
+		font-size:10px;
+	}
+	.titre_1 h3{
+		font-size:10px;
+	}
+	.titre_2 h3{
+		font-size:10px;
+	}
+	.titre_3 h3{
+		font-size:10px;
+	}
+	.trait{
+		width:10%;
+	}
+	#prochainement{
+		width:70%;
+	}
+	#mentions{
+		margin-left:0px;
+	}
+	#contact{
+		margin-right:0px;
+	}
+}
+
+
 
