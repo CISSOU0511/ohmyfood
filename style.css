@@ -247,11 +247,14 @@ h1{
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
+#ne .titre_1 h3{
+	font-size:18px;
+}
 #ne .titre_1 h3:hover {
   background-size: 100% 100%;
 }
 #ne .titre_2 h3{
-	font-size:25px;
+	font-size:18px;
 }
 #ne .titre_2 h3{
   text-decoration: none;
@@ -262,7 +265,7 @@ h1{
   background-size: 100% 100%;
 }
 #ne .titre_3 h3{
-	font-size:25px;
+	font-size:18px;
 }
 #ne .titre_3 h3{
   text-decoration: none;
@@ -280,6 +283,9 @@ h1{
 #le_chic .titre_1 h3:hover {
   background-size: 100% 100%;
 }
+#le_chic .titre_1 h3{
+	font-size:18px;
+}
 #le_chic .titre_2 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
@@ -287,6 +293,9 @@ h1{
 }
 #le_chic .titre_2 h3:hover{
   background-size: 100% 100%;
+}
+#le_chic .titre_2 h3{
+	font-size:18px;
 }
 #le_chic .titre_3 h3{
   text-decoration: none;
@@ -296,6 +305,9 @@ h1{
 #le_chic .titre_3 h3:hover{
   background-size: 100% 100%;
 }
+#le_chic .titre_3 h3{
+	font-size:18px;
+}
 #le_delice .titre_1 h3{
 	text-decoration: none;
     background: linear-gradient(to top, rgb(2, 40, 221) 0%, rgb(2, 40, 221) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
@@ -303,6 +315,9 @@ h1{
 }
 #le_delice .titre_1 h3:hover{
   background-size: 100% 100%;
+}
+#le_delice .titre_1 h3{
+	font-size:15px;
 }
 #le_delice .titre_2 h3{
 	text-decoration: none;
@@ -312,6 +327,9 @@ h1{
 #le_delice .titre_2 h3:hover{
   background-size: 100% 100%;
 }
+#le_delice .titre_2 h3{
+	font-size:15px;
+}
 #le_delice .titre_3 h3{
 	text-decoration: none;
     background: linear-gradient(to top, rgb(8, 135, 251) 0%, rgb(8, 135, 251) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
@@ -319,6 +337,9 @@ h1{
 }
 #le_delice .titre_3 h3:hover{
   background-size: 100% 100%;
+}
+#le_delice .titre_3 h3{
+	font-size:15px;
 }
 #la_palette .titre_1 h3{
 	text-decoration: none;
@@ -328,6 +349,9 @@ h1{
 #la_palette .titre_1 h3:hover{
   background-size: 100% 100%;
 }
+#la_palette .titre_1 h3{
+	font-size:18px;
+}
 #la_palette .titre_2 h3{
 	text-decoration: none;
     background: linear-gradient(to top, rgb(61, 146, 58) 0%, rgb(61, 146, 58) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
@@ -336,6 +360,9 @@ h1{
 #la_palette .titre_2 h3:hover{
   background-size: 100% 100%;
 }
+#la_palette .titre_2 h3{
+	font-size:18px;
+}
 #la_palette .titre_3 h3{
 	text-decoration: none;
     background: linear-gradient(to top, rgb(192, 253, 135) 0%, rgb(192, 253, 135) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
@@ -343,6 +370,9 @@ h1{
 }
 #la_palette .titre_3 h3:hover{
   background-size: 100% 100%;
+}
+#la_palette .titre_3 h3{
+	font-size:18px;
 }
 .liste{
 	list-style-type:none;
@@ -522,7 +552,7 @@ h2{
 	margin-left:50px;
 }
 .virgule{
-	width:30%;
+	width:25%;
 	display:flex;
 	margin-left:40px;
 	margin-right:40px;
@@ -816,111 +846,4 @@ h2{
 	#contact{
 		margin-right:10px;
 	}
-}
-@media all and (max-width:900px){
-	#bloc_1{
-		width:100%;
-		display:flex;
-		flex-direction:column;		
-		}
-	#bloc_2{
-		width:100%;
-		display:flex;
-		flex-direction:column;	
-		}
-	.titre_1{
-		display:flex;		
-		align-items:center;
-	}
-	.titre_2{
-		display:flex;
-		align-items:center;
-	}
-	.titre_3{
-		display:flex;
-		align-items:center;
-	}
-	#titre_4 #musique img{
-		width:20%;		
-	}	
-	#ne .titre_1 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#ne .titre_2 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#ne .titre_3 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_chic .titre_1 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_chic .titre_2 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_chic .titre_3 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_delice .titre_1 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_delice .titre_2 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_delice .titre_3 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#la_palette .titre_1 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#la_palette .titre_2 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	#la_palette .titre_3 h3{
-		font-size:20px;
-		display:flex;
-		justify-content:center;
-	}
-	.trait{
-		width:25%;
-		margin:0px;
-		display:block;
-	}
-	.losange{
-		width:25%;
-		margin:0px;
-		display:block;
-	}	
-	.virgule{
-		width:25%;
-		margin:0px;
-		display:block;
-	}	
-	.vague{
-		width:25%;
-		margin:0px;
-		display:block;
-	}		
 }
