@@ -29,6 +29,9 @@ a{
 header{		
 	font-size:40px;
 }
+h1{
+	margin:0px;
+}
 footer{
 	display:flex;
 	background-color:#579C87;	
@@ -239,37 +242,109 @@ h1{
 .titre_1 h3{
   position: relative;
 }
-.titre_1 h3{
+#ne .titre_1 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-.titre_1 h3:hover {
+#ne .titre_1 h3:hover {
   background-size: 100% 100%;
 }
-.titre_2 h3{
+#ne .titre_2 h3{
 	font-size:25px;
 }
-.titre_2 h3{
+#ne .titre_2 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-.titre_2 h3:hover {
+#ne .titre_2 h3:hover {
   background-size: 100% 100%;
 }
-.titre_3 h3{
+#ne .titre_3 h3{
 	font-size:25px;
 }
-.titre_3 h3{
+#ne .titre_3 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-.titre_3 h3:hover {
+#ne .titre_3 h3:hover {
   background-size: 100% 100%;
 }
-.liste{	
+#le_chic .titre_1 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+#le_chic .titre_1 h3:hover {
+  background-size: 100% 100%;
+}
+#le_chic .titre_2 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+#le_chic .titre_2 h3:hover{
+  background-size: 100% 100%;
+}
+#le_chic .titre_3 h3{
+  text-decoration: none;
+  background: linear-gradient(to top, rgb(121, 48, 211) 0%, rgb(121, 48, 211) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+#le_chic .titre_3 h3:hover{
+  background-size: 100% 100%;
+}
+#le_delice .titre_1 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(2, 40, 221) 0%, rgb(2, 40, 221) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#le_delice .titre_1 h3:hover{
+  background-size: 100% 100%;
+}
+#le_delice .titre_2 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(4, 49, 223) 0%, rgb(4, 49, 223) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#le_delice .titre_2 h3:hover{
+  background-size: 100% 100%;
+}
+#le_delice .titre_3 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(8, 135, 251) 0%, rgb(8, 135, 251) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#le_delice .titre_3 h3:hover{
+  background-size: 100% 100%;
+}
+#la_palette .titre_1 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(61, 147, 57) 0%, rgb(61, 147, 57) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#la_palette .titre_1 h3:hover{
+  background-size: 100% 100%;
+}
+#la_palette .titre_2 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(61, 146, 58) 0%, rgb(61, 146, 58) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#la_palette .titre_2 h3:hover{
+  background-size: 100% 100%;
+}
+#la_palette .titre_3 h3{
+	text-decoration: none;
+    background: linear-gradient(to top, rgb(192, 253, 135) 0%, rgb(192, 253, 135) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+#la_palette .titre_3 h3:hover{
+  background-size: 100% 100%;
+}
+.liste{
 	list-style-type:none;
 }
 p{
@@ -311,7 +386,7 @@ p{
 }
 #titre_4 #musique{
 	display:block;
-	width:40%;
+	width:30%;
 }
 #titre_4 #musique img{
 	float:right;
@@ -413,12 +488,14 @@ h2{
 }
 #plat{
 	color:#AF5D9B;
+	font-size:25px;
 }
 .dessert_1{
 	margin-left:50px;
 }
 #dessert{
 	color:#7930D3;
+	font-size:25px;
 }
 /*fin de chic*/
 #couleur_2{
@@ -467,6 +544,7 @@ h2{
 }
 #delice h2{
 	margin-left:10px;
+	padding-left:10px;
 }
 #delice h2{
 	display:flex;
@@ -503,9 +581,6 @@ h2{
 	flex-direction:row;
 	justify-content:space-between;
 	margin-left:50px;
-}
-.prix{
-	
 }
 #menu_4{
 	background-color:#FDFFFD;
@@ -623,11 +698,11 @@ h2{
 		width:20%;		
 	}	
 	#note h2{
-		font-size:25px;
+		font-size:30px;
 		margin-top:0px;
 	}
 	#chic h2{
-		font-size:20px;
+		font-size:30px;
 	}
 	p{
 		font-size:15px;
@@ -648,19 +723,21 @@ h2{
 		justify-content:center;
 	}
 	.titre_1{
-		display:flex;
-		flex-direction:column;		
+		display:flex;		
+		align-items:center;
 	}
 	.titre_2{
 		display:flex;
-		flex-direction:column;	
+		align-items:center;
 	}
 	.titre_3{
 		display:flex;
-		flex-direction:column;
+		align-items:center;
 	}
 	.trait{
-		width:50%;
+		width:30%;
+		margin:0px;
+		display:block;
 	}
 	.losange{
 		width:50%;
@@ -681,4 +758,3 @@ h2{
 		margin-right:10px;
 	}
 }
-
