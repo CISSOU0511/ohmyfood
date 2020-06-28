@@ -35,7 +35,7 @@ h1{
 footer{
 	display:flex;
 	background-color:#579C87;	
-	font-size:15px;
+	font-size:20px;
 	justify-content:space-between;
 }
 footer a:visited{
@@ -117,7 +117,7 @@ h1{
 	background-color:#FCDFDB;	
 	transition-property:transform, opacity;	
 	box-shadow:0px 0px 8px 6px #E8E8E8;	
-	width:500px;
+	width:350px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
@@ -138,7 +138,7 @@ h1{
 	background-color:#FFF5FE;
 	transition-property:transform, opacity;	
 	box-shadow:0px 0px 8px 6px #E8E8E8;		
-	width:500px;
+	width:350px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
@@ -159,7 +159,7 @@ h1{
 	background-color:#EDEFEF;
 	transition-property:transform, opacity;	
 	box-shadow:0px 0px 8px 6px #E8E8E8;
-	width:500px;
+	width:350px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
@@ -180,7 +180,7 @@ h1{
 	background-color:#FDFFFD;	
 	transition-property:transform, opacity;
 	box-shadow:0px 0px 8px 6px #E8E8E8;		
-	width:500px;
+	width:350px;
 	height:600px;
 	margin-bottom:50px;
 	margin-top:50px;
@@ -248,28 +248,32 @@ h1{
   transition: background-size .5s;
 }
 #ne .titre_1 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #ne .titre_1 h3:hover {
   background-size: 100% 100%;
 }
 #ne .titre_2 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #ne .titre_2 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background:-webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background:-moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
 #ne .titre_2 h3:hover {
   background-size: 100% 100%;
 }
 #ne .titre_3 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #ne .titre_3 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: -webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: -moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
 #ne .titre_3 h3:hover {
@@ -277,25 +281,25 @@ h1{
 }
 #le_chic .titre_1 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
   transition: background-size .5s;
 }
 #le_chic .titre_1 h3:hover {
   background-size: 100% 100%;
 }
 #le_chic .titre_1 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #le_chic .titre_2 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
   transition: background-size .5s;
 }
 #le_chic .titre_2 h3:hover{
   background-size: 100% 100%;
 }
 #le_chic .titre_2 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #le_chic .titre_3 h3{
   text-decoration: none;
@@ -306,7 +310,7 @@ h1{
   background-size: 100% 100%;
 }
 #le_chic .titre_3 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #le_delice .titre_1 h3{
 	text-decoration: none;
@@ -317,7 +321,7 @@ h1{
   background-size: 100% 100%;
 }
 #le_delice .titre_1 h3{
-	font-size:15px;
+	font-size:30px;
 }
 #le_delice .titre_2 h3{
 	text-decoration: none;
@@ -328,7 +332,7 @@ h1{
   background-size: 100% 100%;
 }
 #le_delice .titre_2 h3{
-	font-size:15px;
+	font-size:30px;
 }
 #le_delice .titre_3 h3{
 	text-decoration: none;
@@ -339,7 +343,7 @@ h1{
   background-size: 100% 100%;
 }
 #le_delice .titre_3 h3{
-	font-size:15px;
+	font-size:30px;
 }
 #la_palette .titre_1 h3{
 	text-decoration: none;
@@ -350,7 +354,7 @@ h1{
   background-size: 100% 100%;
 }
 #la_palette .titre_1 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #la_palette .titre_2 h3{
 	text-decoration: none;
@@ -361,7 +365,7 @@ h1{
   background-size: 100% 100%;
 }
 #la_palette .titre_2 h3{
-	font-size:18px;
+	font-size:30px;
 }
 #la_palette .titre_3 h3{
 	text-decoration: none;
@@ -372,7 +376,7 @@ h1{
   background-size: 100% 100%;
 }
 #la_palette .titre_3 h3{
-	font-size:18px;
+	font-size:30px;
 }
 .liste{
 	list-style-type:none;
@@ -455,8 +459,20 @@ p{
 }
 h2{
 	display:flex;
-	font-size:40px;
+	font-size:30px;
 	justify-content:center;
+}
+#ne h2{
+	font-size:50px;
+}
+#le_chic h2{
+	font-size:50px;
+}
+#le_delice h2{
+	font-size:50px;
+}
+#la_palette h2{
+	font-size:50px;
 }
 #titre_4{
 	display:flex;
@@ -494,10 +510,19 @@ h2{
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
 }
+#chic h2{ 
+	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background:-webkit-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background: -moz-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
+}
 #chic{
 	display:flex;
 	justify-content:center;	
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background:-webkit-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background: -moz-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
 	font-size:30px;
 }
@@ -691,7 +716,7 @@ h2{
 		font-size:30px; 
 	}
 	footer{
-		font-size:10px;
+		font-size:15px;
 	}
 	#bloc_1{
 		width:100%;
@@ -805,6 +830,177 @@ h2{
 	}
 	#la_palette .titre_3 h3{
 		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	.titre_1{
+		display:flex;		
+		align-items:center;
+	}
+	.titre_2{
+		display:flex;
+		align-items:center;
+	}
+	.titre_3{
+		display:flex;
+		align-items:center;
+	}
+	.trait{
+		width:25%;
+		margin:0px;
+		display:block;
+	}
+	.losange{
+		width:25%;
+		margin:0px;
+		display:block;
+	}	
+	.virgule{
+		width:25%;
+		margin:0px;
+		display:block;
+	}	
+	.vague{
+		width:25%;
+		margin:0px;
+		display:block;
+	}		
+	#prochainement{
+		width:70%;
+	}
+	#mentions{
+		margin-left:10px;
+	}
+	#contact{
+		margin-right:10px;
+	}
+}
+@media all and (max-width:1024px){
+	header{
+		font-size:30px; 
+	}
+	footer{
+		font-size:30px;
+	}
+	#bloc_1{
+		width:100%;
+		display:flex;
+		flex-direction:column;		
+		}
+	#bloc_2{
+		width:100%;
+		display:flex;
+		flex-direction:column;	
+		}
+	#page{
+		width:500px;
+		height:600px;
+	}
+	#page_1{ 
+		width:500px;
+		height:600px;
+	}
+	#page_2{ 
+		width:500px;
+		height:600px;
+	}
+	#page_3{
+		width:500px;
+		height:600px;
+	}	
+	#page h3{
+		font-size:30px;
+	}
+	#couleur{
+		margin-left:20px;
+		}
+	#couleur_1{
+		margin-left:25px;
+		margin-top:25px;
+	}	
+	#couleur_2{
+		margin-left:25px;
+		margin-top:25px;
+	}
+	#couleur_3{
+		margin-top:25px;
+	}
+	#titre_4 #musique img{
+		width:20%;		
+	}	
+	#note h2{
+		font-size:30px;
+		margin-top:0px;
+	}
+	#chic h2{
+		font-size:30px;		
+	}
+	#menu_2 #chic h2{
+		font-size:25px;
+	}
+	#menu_3 #delice h2{
+		font-size:35px;
+	}
+	p{
+		font-size:15px;
+	}
+	#ne .titre_1 h3{
+		font-size:20px;		
+		display:flex;
+		justify-content:center;
+	}
+	#ne .titre_2 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#ne .titre_3 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_chic .titre_1 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_chic .titre_2 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_chic .titre_3 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_1 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_2 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_3 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#la_palette .titre_1 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#la_palette .titre_2 h3{
+		font-size:20px;
+		display:flex;
+		justify-content:center;
+	}
+	#la_palette .titre_3 h3{
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
