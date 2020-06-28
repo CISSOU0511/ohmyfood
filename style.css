@@ -506,9 +506,9 @@ h2{
 	-webkit-text-fill-color:transparent;
 }
 #chic h2{ 
-	background:linear-gradient(bottom ,#C77529 0%,#8F5BFE 75%);
-	background:-webkit-linear-gradient(bottom,#C77529 0%,#8F5BFE 75%);
-	background: -moz-linear-gradient(bottom,#C77529 0%,#8F5BFE 75%);
+	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background-image:-webkit-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background: -moz-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
 }
