@@ -66,7 +66,7 @@ h4 {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100%{ -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake a:hover,. shake a:focus{	 
+.shake a:hover,.shake a:focus{	 
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
@@ -279,7 +279,9 @@ h1{
 }
 #le_chic .titre_1 h3{
   text-decoration: none;
-  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
+  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%; 
+  background: -webkit-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  background: -moz-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
 #le_chic .titre_1 h3:hover {
