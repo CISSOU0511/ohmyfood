@@ -54,7 +54,7 @@ h4 {
 	margin-right:50px;
 }
 @-webkit-keyframes spaceboots{
-	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	0%  {-webkit-transform: translate(2px, 1px) rotate(0deg); }
 	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
 	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
 	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
@@ -282,6 +282,7 @@ h1{
   background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%; 
   background: -webkit-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   background: -moz-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  cursor:pointer;
   transition: background-size .5s;
 }
 #le_chic .titre_1 h3:hover {
