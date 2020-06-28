@@ -507,7 +507,7 @@ h2{
 }
 #chic h2{ 
 	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
-	background-image:-webkit-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background-image:-webkit-linear-gradient(to right, hsl(0, 80%, 70%), #BADA55); /*0%,#8F5BFE 75%);*/
 	background: -moz-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
