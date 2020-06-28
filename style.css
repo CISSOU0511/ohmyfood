@@ -281,8 +281,7 @@ h1{
   text-decoration: none;
   background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%; 
   background: -webkit-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  background: -moz-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  cursor:pointer;
+  background: -moz-linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
   transition: background-size .5s;
 }
 #le_chic .titre_1 h3:hover {
@@ -506,15 +505,10 @@ h2{
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
-#chic h2{
-	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
-}
 #chic h2{ 
-	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
-	background:-webkit-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
-	background: -moz-linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background:linear-gradient(bottom ,#C77529 0%,#8F5BFE 75%);
+	background:-webkit-linear-gradient(bottom,#C77529 0%,#8F5BFE 75%);
+	background: -moz-linear-gradient(bottom,#C77529 0%,#8F5BFE 75%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
 }
