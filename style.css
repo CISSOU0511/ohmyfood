@@ -501,13 +501,15 @@ h2{
 	display:flex;
 	justify-content:center;
 	font-family:roboto;
-	background:linear-gradient(to right,#C77529 0%,#8F5BFE 75%);
+	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
+	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
 #chic h2{	
 	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
 	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
@@ -755,6 +757,16 @@ h2{
 	#couleur_3{
 		margin-top:25px;
 	}
+	#delice h2{
+		font-size:35px;
+		margin-left:0px;
+		margin-right:0px;
+	}
+	#palette h2{
+		font-size:30px;
+		margin-left:0px;
+		margin-right:0px
+	}
 	#titre_4 #musique img{
 		width:20%;		
 	}	
@@ -765,7 +777,40 @@ h2{
 	#chic h2{
 		font-size:25px;
 	}
+	.entree{
+		margin:10px;
+	}
 	.entree_1{
+		margin:10px;
+	}
+	.entree_2{
+		margin:10px;
+	}
+	.entree_3{
+		margin:10px;
+	}
+	.plat{
+		margin:10px;
+	}
+	.plat_1{
+		margin:10px;
+	}
+	.plat_2{
+		margin:10px;
+	}
+	.plat_3{
+		margin:10px;
+	}
+	.dessert{
+		margin:10px;
+	}
+	.dessert_1{
+		margin:10px;
+	}
+	.dessert_2{
+		margin:10px;
+	}
+	.dessert_3{
 		margin:10px;
 	}
 	.prix{
@@ -847,23 +892,27 @@ h2{
 		align-items:center;
 	}
 	.trait{
-		width:25%;
-		margin:0px;
+		width:20%;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}
 	.losange{
 		width:20%;
-		margin:0px;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}	
 	.virgule{
-		width:25%;
-		margin:0px;
+		width:20%;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}	
 	.vague{
-		width:25%;
-		margin:0px;
+		width:20%;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}		
 	#prochainement{
@@ -1019,22 +1068,26 @@ h2{
 	}
 	.trait{
 		width:25%;
-		margin:0px;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}
 	.losange{
 		width:25%;
-		margin:0px;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}	
 	.virgule{
 		width:25%;
-		margin:0px;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}	
 	.vague{
 		width:25%;
-		margin:0px;
+		margin-left:0px;
+		margin-right:0px;
 		display:block;
 	}		
 	#prochainement{
