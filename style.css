@@ -1,3 +1,9 @@
+#paragraphe p{
+	background: -webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size:50px;
+}
 @font-face{
 	font-family:"Baskerville";
 	src: url("fonts/LibreBaskerville-Regular.otf");		
