@@ -66,7 +66,7 @@ h4 {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake a:hover,. shake a:focus{
+.shake a:hover, .shake a:focus{
 	 
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
@@ -637,11 +637,18 @@ h2{
 #palette h2{
 	display:flex;
 	justify-content:center;
+	background: linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
+    background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
+    background: -moz-linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+	font-family:merienda;
+}		
+#palette h2{
 	background: -webkit-gradient(linear,left top,right bottom, from(#3D923A), to(#BEFF7F));
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-family:merienda;	
-}
+	-webkit-text-fill-color: transparent;	
+}	
 #palette h3{
 	color:#3D923A;
 	font-family:merienda;
