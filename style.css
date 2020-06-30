@@ -1,3 +1,9 @@
+#paragraphe{
+background: -webkit-gradient(linear,left top,right bottom, from(#3D923A), to(#BEFF7F));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 48px;
+}
 @font-face{
 	font-family:"Baskerville";
 	src: url("fonts/LibreBaskerville-Regular.otf");		
@@ -637,9 +643,9 @@ h2{
 #palette h2{
 	display:flex;
 	justify-content:center;
-	background: linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
-    background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
-    background: -moz-linear-gradient(315deg, #c67412 0%, #a56799 60%, #6e4ccc 80%);
+	background: linear-gradient(315deg, #3D923A 0%, #89D262 40%, #BEFF7F 60%);
+    background: -webkit-linear-gradient(315deg, #3D923A 0%, #89D262 40%, #BEFF7F 60%);
+    background: -moz-linear-gradient(315deg, #3D923a 0%, #89D262 40%, #BEFF7F 60%);
     -webkit-background-clip: text;
     color: transparent;
 	font-family:merienda;
