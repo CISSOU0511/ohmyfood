@@ -589,13 +589,22 @@ h2{
 	padding-left:10px;
 }
 #delice h2{
+	background: #0228DD;
+    background: linear-gradient(315deg, #0228DD0%, #0670F3 50%, #229DF9 80%);
+    /*background: -webkit-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);*/
+    background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+	font-family:dancing;
+}
+#delice h2{
 	display:flex;
 	justify-content:center;
 	background: -webkit-gradient(linear,left top,right bottom, from(#0228DD), to(#0887FB));	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;	
-}
+}			
 #delice h3{
 	color:#0228DD;	
 	font-family:merienda;	
@@ -643,9 +652,9 @@ h2{
 #palette h2{
 	display:flex;
 	justify-content:center;
-	background: linear-gradient(315deg, #3D923A 0%, #89D262 40%, #BEFF7F 60%);
-    background: -webkit-linear-gradient(315deg, #3D923A 0%, #89D262 40%, #BEFF7F 60%);
-    background: -moz-linear-gradient(315deg, #3D923a 0%, #89D262 40%, #BEFF7F 60%);
+	background: linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+    /*background: -webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
+    background: -moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #Ee4CCC 80%);
     -webkit-background-clip: text;
     color: transparent;
 	font-family:merienda;
@@ -700,17 +709,6 @@ h2{
 .point{
 	font-size:30px;
 }
-/*@media all and (max-width:360px){
-	#ne h3{
-		font-size:15px;
-	}
-	#ne p{
-		font-size:12px;
-	}
-	#le_chic .titre_1 h3{
-		font-size:12px;
-	}
-}*/
 @media all and (min-width:360px)and (max-width:600px){
 	header{
 		font-size:30px; 
