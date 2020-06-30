@@ -501,30 +501,27 @@ h2{
 	display:flex;
 	justify-content:center;
 	font-family:roboto;
-	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
 	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
-	-webkit-text-fill-color:rgba(255,255,255,0);
+	-webkit-text-fill-color:transparent;*/	
 }
 #chic h2{	
 	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
+	background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
+	/*background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	-webkit-text-fill-color:rgba(255,255,255,0);
 }
 #chic{
 	display:flex;
 	justify-content:center;	
-	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	-webkit-text-fill-color:rgba(255,255,255,0);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color:transparent;*/	
 	font-size:30px;
 }
 .entree_1{
