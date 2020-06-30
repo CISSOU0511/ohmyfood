@@ -1,9 +1,3 @@
-#paragraphe p{
-	background: -webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size:50px;
-}
 @font-face{
 	font-family:"Baskerville";
 	src: url("fonts/LibreBaskerville-Regular.otf");		
@@ -364,7 +358,7 @@ h1{
 }
 #la_palette .titre_2 h3{
 	text-decoration: none;
-    background: linear-gradient(to top, rgb(61, 146, 58) 0%, rgb(61, 146, 58) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    background: linear-gradient(to top, rgb(128,210,98) 0%, rgb(128,210,98) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
 #la_palette .titre_2 h3:hover{
@@ -469,7 +463,7 @@ h2{
 	justify-content:center;
 }
 #ne h2{
-	font-size:30px;
+	font-size:50px;
 }
 #le_chic h2{
 	font-size:50px;
@@ -506,28 +500,16 @@ h2{
 #chic a{
 	display:flex;
 	justify-content:center;
-	font-family:roboto;
-	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/	
+	font-family:roboto;	
 }
 #chic h2{	
-	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	/*background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	background: -webkit-gradient(linear,left top,right bottom, from(#C77412), to(#8F5AFF));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #chic{
 	display:flex;
-	justify-content:center;	
-	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/	
+	justify-content:center;		
 	font-size:30px;
 }
 .entree_1{
@@ -590,11 +572,6 @@ h2{
 	background-color:#EDEFEF;
 	font-family:merienda;
 }
-#delice a{
-	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
-}
 #delice{
 	display:flex;	
 	justify-content:center;
@@ -608,7 +585,7 @@ h2{
 #delice h2{
 	display:flex;
 	justify-content:center;
-	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
+	background: -webkit-gradient(linear,left top,right bottom, from(#0228DD), to(#0887FB));	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;	
@@ -651,11 +628,6 @@ h2{
 	margin-left:40px;
 	margin-right:40px;
 }
-#palette a{
-	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
-}
 #palette{
 	display:flex;
 	justify-content:center;
@@ -665,9 +637,9 @@ h2{
 #palette h2{
 	display:flex;
 	justify-content:center;
-	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
+	background: -webkit-gradient(linear,left top,right bottom, from(#3D923A), to(#BEFF7F));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family:merienda;	
 }
 #palette h3{
@@ -715,10 +687,21 @@ h2{
 .point{
 	font-size:30px;
 }
-@media all and (max-width:600px){
+/*@media all and (max-width:360px){
+	#ne h3{
+		font-size:15px;
+	}
+	#ne p{
+		font-size:12px;
+	}
+	#le_chic .titre_1 h3{
+		font-size:12px;
+	}
+}*/
+@media all and (min-width:360px)and (max-width:600px){
 	header{
 		font-size:30px; 
-	}
+	}                   
 	footer{
 		font-size:15px;
 	}
@@ -743,6 +726,9 @@ h2{
 	}
 	#page_3{
 		width:100%;
+	}
+	#ne h2{
+		font-size:40px;
 	}
 	h2{
 		font-size:30px;
@@ -785,7 +771,7 @@ h2{
 		font-size:25px;
 	}
 	.entree{
-		margin:10px;
+		margin:5px;
 	}
 	.entree_1{
 		margin:10px;
@@ -797,7 +783,7 @@ h2{
 		margin:10px;
 	}
 	.plat{
-		margin:10px;
+		margin:5px;
 	}
 	.plat_1{
 		margin:10px;
@@ -809,7 +795,7 @@ h2{
 		margin:10px;
 	}
 	.dessert{
-		margin:10px;
+		margin:5px;
 	}
 	.dessert_1{
 		margin:10px;
@@ -821,23 +807,23 @@ h2{
 		margin:10px;
 	}
 	.prix{
-		margin-right:10px;
+		margin-right:0px;
 	}
 	p{
-		font-size:15px;
+		font-size:12px;
 	}
 	#ne .titre_1 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
 	#ne .titre_2 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
 	#ne .titre_3 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
@@ -847,42 +833,42 @@ h2{
 		justify-content:center;
 	}
 	#le_chic .titre_2 h3{
-		font-size:14px;
+		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
 	#le_chic .titre_3 h3{
-		font-size:14px;
+		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
 	#le_delice .titre_1 h3{
-		font-size:13px;
+		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
 	#le_delice .titre_2 h3{
-		font-size:13px;
+		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
 	#le_delice .titre_3 h3{
-		font-size:13px;
+		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
 	#la_palette .titre_1 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
 	#la_palette .titre_2 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
 	#la_palette .titre_3 h3{
-		font-size:15px;
+		font-size:20px;
 		display:flex;
 		justify-content:center;
 	}
@@ -899,7 +885,7 @@ h2{
 		align-items:center;
 	}
 	.trait{
-		width:20%;
+		width:25%;
 		margin-left:0px;
 		margin-right:0px;
 		display:block;
@@ -932,7 +918,7 @@ h2{
 		margin-right:10px;
 	}
 }
-@media all(min-width:601px)and(max-width:1024px){
+@media all and (min-width:601px)and (max-width:1024px){
 	header{
 		font-size:30px; 
 	}
