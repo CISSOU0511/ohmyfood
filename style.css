@@ -507,27 +507,17 @@ h2{
 	display:flex;
 	justify-content:center;
 	font-family:roboto;
-	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/	
 }
 #chic h2{	
 	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	/*background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
+	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
 #chic{
 	display:flex;
-	justify-content:center;	
-	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/	
+	justify-content:center;		
 	font-size:30px;
 }
 .entree_1{
@@ -603,7 +593,7 @@ h2{
 #delice h2{
 	background: #0228DD;
     background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);
-    /*background: -webkit-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);*/
+    background:-webkit-gradient(linear 315deg, #0228DD 0%, #0670F3 60%, #229DF9 80%);
     background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);
     -webkit-background-clip: text;
     color: transparent;
@@ -665,7 +655,7 @@ h2{
 	display:flex;
 	justify-content:center;
 	background: linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-    /*background: -webkit-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
+    background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
     background: -moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #Ee4CCC 80%);
     -webkit-background-clip: text;
     color: transparent;
