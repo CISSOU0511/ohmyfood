@@ -72,7 +72,7 @@ h4 {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake a:hover,.shake a:focus{
+.shake a:hover,. shake a:focus{
 	 
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
@@ -364,7 +364,7 @@ h1{
 }
 #la_palette .titre_2 h3{
 	text-decoration: none;
-    background: linear-gradient(to top, rgb(128,210,98) 0%, rgb(128,210,98) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    background: linear-gradient(to top, rgb(61, 146, 58) 0%, rgb(61, 146, 58) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
 #la_palette .titre_2 h3:hover{
@@ -469,7 +469,7 @@ h2{
 	justify-content:center;
 }
 #ne h2{
-	font-size:50px;
+	font-size:30px;
 }
 #le_chic h2{
 	font-size:50px;
@@ -514,8 +514,8 @@ h2{
 	-webkit-text-fill-color:transparent;*/	
 }
 #chic h2{	
-	background:linear-gradient(315deg, #6E4CCC 0%, #A56799 60%, #C67412 80%);
-	background:-webkit-gradient(linear 315deg,  #C67412 0%, #A56799 60%, #6E4CCC 80%);	
+	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
 	/*background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -590,6 +590,11 @@ h2{
 	background-color:#EDEFEF;
 	font-family:merienda;
 }
+#delice a{
+	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
+}
 #delice{
 	display:flex;	
 	justify-content:center;
@@ -603,15 +608,11 @@ h2{
 #delice h2{
 	display:flex;
 	justify-content:center;
-	font-family:dancing; 
-}
-#delice h2{
-	background:linear-gradient(315deg, #229DF9 0%, #0670F3 60%, #0228DD 80%);
-	background:-webkit-gradient(linear 315deg #0228DD 0%, #0670F3 60%, #229DF9 80%);
-	/*background:-moz-linear-gradient(315deg, #0228DD 0%, #0670F3 60%, #229DF9 80%);*/
+	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;		
-}			
+	-webkit-text-fill-color:transparent;
+	font-family:dancing;	
+}
 #delice h3{
 	color:#0228DD;	
 	font-family:merienda;	
@@ -650,6 +651,11 @@ h2{
 	margin-left:40px;
 	margin-right:40px;
 }
+#palette a{
+	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
+}
 #palette{
 	display:flex;
 	justify-content:center;
@@ -658,16 +664,12 @@ h2{
 }
 #palette h2{
 	display:flex;
-	justify-content:center;	
-	font-family:merienda;
+	justify-content:center;
+	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;	
+	font-family:merienda;	
 }
-#palette h2{	
-   background:linear-gradient(315deg, #BEFF7F 0%, #89D262 50%, #3D923A 80%);
-	background:-webkit-gradient(linear 315deg, #3D933A 0%,#89D262 60%, #BEFF7F 80%);
-	/*background:-moz-linear-gradient(315deg, #3D923A 0%, #89D262 60%, #BEFF7F 80%);*/   
-    -webkit-background-clip: text;
-    color: transparent;	
-}	
 #palette h3{
 	color:#3D923A;
 	font-family:merienda;
