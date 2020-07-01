@@ -72,7 +72,7 @@ h4 {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake a:hover, .shake a:focus{
+.shake a:hover,.shake a:focus{
 	 
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
@@ -509,9 +509,9 @@ h2{
 	font-family:roboto;
 }
 #chic h2{	
-	background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-	background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);	
-	background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
+	/*background:linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
+	background: -webkit-gradient(linear,left top,right bottom, from(#C77412), to(#8F5AFF));	
+	/*background:-moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);*/
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
@@ -591,18 +591,11 @@ h2{
 	padding-left:10px;
 }
 #delice h2{
-	background: #0228DD;
-    background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);
-    background:-webkit-gradient(linear 315deg, #0228DD 0%, #0670F3 60%, #229DF9 80%);
-    background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);
-    -webkit-background-clip: text;
-    color: transparent;
-	font-family:dancing;
-}
-#delice h2{
 	display:flex;
 	justify-content:center;
-	background: -webkit-gradient(linear,left top,right bottom, from(#0228DD), to(#0887FB));	
+	/*background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);*/
+	background: -webkit-gradient(linear,left top,right bottom, from(#0228DD), to(#0887FB));
+	/*background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%, #229DF9 80%);*/
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;	
@@ -654,17 +647,12 @@ h2{
 #palette h2{
 	display:flex;
 	justify-content:center;
-	background: linear-gradient(315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-    background:-webkit-gradient(linear 315deg, #C67412 0%, #A56799 60%, #6E4CCC 80%);
-    background: -moz-linear-gradient(315deg, #C67412 0%, #A56799 60%, #Ee4CCC 80%);
+	/*background: linear-gradient(315deg, #3D923A 0%, #89D262 60%, #BEFF7F 80%);*/
+    background:-webkit-gradient(linear, left top, right bottom, from(#3D923A), to(#BEFF7F));
+    /*background: -moz-linear-gradient(315deg, #3D923A 0%, #89D262 60%, #BEFF7F80%);*/
     -webkit-background-clip: text;
     color: transparent;
 	font-family:merienda;
-}		
-#palette h2{
-	background: -webkit-gradient(linear,left top,right bottom, from(#3D923A), to(#BEFF7F));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
 }	
 #palette h3{
 	color:#3D923A;
