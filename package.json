@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "node-sass -watch scss -o css" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CISSOU0511/ohmyfood.git"
+    "url": "git+https://github.com/CISSOU0511/ohmyfood.git"                                
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CISSOU0511/ohmyfood/issues"
   },
-  "homepage": "https://github.com/CISSOU0511/ohmyfood#readme"
+  "homepage": "https://github.com/CISSOU0511/ohmyfood#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
