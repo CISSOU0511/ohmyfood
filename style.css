@@ -505,12 +505,12 @@ h2{
 	justify-content:center;
 	font-family:roboto;		
 }
-#chic p{
+#chic p{	
 	background:-webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-size:30px;
-	font-family:roboto;
+	font-size:30px;	
+	font-family:roboto;	
 }
 #chic{
 	display:flex;
@@ -577,25 +577,18 @@ h2{
 	background-color:#EDEFEF;
 	font-family:merienda;
 }
-#delice a{
-	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
-}
 #delice{
 	display:flex;	
 	justify-content:center;
 	font-family:Dancing;
 	font-size:30px;
 }
-#delice p{
-	display:flex;
-	justify-content:center;
-	background:linear-gradient(to right,#0431DF 0%, #0887FB 75%);	
+#delice p{	
+	background:-webkit-gradient(linear,left top,right bottom, from(#0431DF), to(#0887FB));	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;
-	font-size:40px;
+	font-size:40px;	
 	padding-left:10px;
 }
 #delice h3{
@@ -636,11 +629,6 @@ h2{
 	margin-left:40px;
 	margin-right:40px;
 }
-#palette a{
-	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;	
-}
 #palette{
 	display:flex;
 	justify-content:center;
@@ -650,11 +638,10 @@ h2{
 #palette p{
 	display:flex;
 	justify-content:center;
-	background:linear-gradient(to right,#3D9339 0%, #C0FD87 75%);
+	background:-webkit-gradient(linear,left top,right bottom, from(#3D9339), to(#C0FD87));
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	font-size:30px;
-	font-family:merienda;	
+	font-size:30px;	
 }
 #palette h3{
 	color:#3D923A;
