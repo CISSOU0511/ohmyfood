@@ -460,10 +460,11 @@ p{
 h2{
 	display:block;
 	font-size:30px;
-	
+	text-align:center;
 }
 #ne h2{
-	font-size:30px;
+	font-size:50px;
+	text-align:center;
 }
 #le_chic h2{
 	font-size:50px;
@@ -479,10 +480,11 @@ h2{
 	padding-top:10px;
 }
 /*fin de note*/
-#couleur_1{
-	/*width:90%;*/
+#couleur_1{	
 	background-color: #FFF5FE;
-	/*margin-bottom:50px;
+	padding-bottom:50px;
+	/*width:90%;
+	margin-bottom:50px;
 	margin-left:50px;
 	margin-right:50px;
 	padding-bottom:50px;*/
@@ -811,17 +813,17 @@ h2{
 		font-size:12px;
 	}
 	#ne .titre_1 h3{
-		font-size:20px;
+		font-size:18px;
 		display:flex;
 		justify-content:center;
 	}
 	#ne .titre_2 h3{
-		font-size:20px;
+		font-size:18px;
 		display:flex;
 		justify-content:center;
 	}
 	#ne .titre_3 h3{
-		font-size:20px;
+		font-size:18px;
 		display:flex;
 		justify-content:center;
 	}
@@ -952,15 +954,11 @@ h2{
 	#page h3{
 		font-size:30px;
 	}
-	#couleur{
-		margin-left:20px;
-		}
 	#couleur_1{
-		margin-left:25px;
+		margin-left:50px;
 		margin-top:25px;
 	}	
 	#couleur_2{
-		margin-left:25px;
 		margin-top:25px;
 	}
 	#couleur_3{
