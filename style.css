@@ -480,16 +480,19 @@ h2{
 }
 /*fin de note*/
 #couleur_1{
-	width:90%;
+	/*width:90%;*/
 	background-color: #FFF5FE;
-	margin-bottom:50px;
+	/*margin-bottom:50px;
 	margin-left:50px;
 	margin-right:50px;
-	padding-bottom:50px;
+	padding-bottom:50px;*/
 }
 #menu_2{
 	font-family:baskerville;
 	background-color:#FFF5FE;	
+}
+#menu_2 #chic h2{
+	font-size:50px;
 }
 #menu_2 #chic p{
 	font-size:60px;
@@ -500,21 +503,6 @@ h2{
 	margin-left:40px;
 	margin-right:40px;
 }
-/*#chic a{
-	display:flex;
-	justify-content:center;
-	font-family:roboto;		
-}*/
-/*#chic h2{	
-	margin:20px;
-	box-shadow: 2px 2px 5px grey ;
-	background-color:#fff5fe;
-	height:500px;
-	width:350px;
-	text-align:center;
-	display:block;	
-	justify-content:center;
-}*/
 #chic h2{
 	display:block;	
 	font-family:roboto;
@@ -524,11 +512,6 @@ h2{
 	font-size:30px;	
 	text-align:center;
 }
-/*#chic{
-	display:flex;
-	justify-content:center;			
-	font-size:30px;
-}*/
 .entree_1{
 	display:flex;
 	flex-direction:row;
@@ -558,11 +541,11 @@ h2{
 /*fin de chic*/
 #couleur_2{
 	background-color:#EDEFEF;
-	width:90%;
+	/*width:90%;
 	margin-bottom:50px;
 	margin-left:50px;
 	margin-right:50px;
-	padding-bottom:50px;
+	padding-bottom:50px;*/
 }
 .entree_2{
 	display:flex;
@@ -589,10 +572,16 @@ h2{
 	background-color:#EDEFEF;
 	font-family:merienda;
 }
+#menu_h2{
+	  font-size:50px;
+  }
 #delice{
 	display:block;		
 	font-family:Dancing;
 	font-size:30px;
+}
+#menu_3 #delice h2{
+	font-size:50px;
 }
 #delice h2{	
 	background:-webkit-gradient(linear,left top,right bottom, from(#0431DF), to(#0887FB));	
@@ -622,7 +611,7 @@ h2{
 	flex-direction:row;
 	justify-content:space-between;
 	margin-left:50px;
-}
+} 
 .dessert_3{
 	margin-left:50px;
 	display:flex;
@@ -633,6 +622,9 @@ h2{
 #menu_4{
 	background-color:#FDFFFD;
 	font-family:merienda;
+}
+#menu_4 #palette h2{
+	font-size:50px;
 }
 .vague{
 	display:flex;
@@ -727,12 +719,18 @@ h2{
 	#page_3{
 		width:100%;
 	}
+	#menu_2 #chic h2{
+		font-size:30px;
+	}
+	#menu_3 #delice h2{
+		font-size:30px;
+	}
+	#menu_4 #palette h2{
+		font-size:30px;
+	}
 	#ne h2{
 		font-size:40px;
-	}
-	/*h2{
-		font-size:30px;
-	}*/
+	}	
 	#page h3{
 		font-size:30px;
 	}
