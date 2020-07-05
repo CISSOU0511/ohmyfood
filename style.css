@@ -458,9 +458,9 @@ p{
 	font-family:merienda;	
 }
 h2{
-	display:flex;
+	display:block;
 	font-size:30px;
-	justify-content:center;
+	
 }
 #ne h2{
 	font-size:30px;
@@ -500,33 +500,35 @@ h2{
 	margin-left:40px;
 	margin-right:40px;
 }
-#chic a{
+/*#chic a{
 	display:flex;
 	justify-content:center;
 	font-family:roboto;		
-}
-#chic h2{	
-	margin: 20px;
+}*/
+/*#chic h2{	
+	margin:20px;
 	box-shadow: 2px 2px 5px grey ;
-	background-color: #fff5fe;
-	height: 500px;
-	width: 350px;
-	text-align: center;
-	display: flex;	
-	justify-content: center;
-}
-#chic h2 {
+	background-color:#fff5fe;
+	height:500px;
+	width:350px;
+	text-align:center;
+	display:block;	
+	justify-content:center;
+}*/
+#chic h2{
+	display:block;	
 	font-family:roboto;
 	background:-webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	font-size: 48px;   
+	font-size:30px;	
+	text-align:center;
 }
-#chic{
+/*#chic{
 	display:flex;
 	justify-content:center;			
 	font-size:30px;
-}
+}*/
 .entree_1{
 	display:flex;
 	flex-direction:row;
@@ -588,18 +590,17 @@ h2{
 	font-family:merienda;
 }
 #delice{
-	display:flex;	
-	justify-content:center;
+	display:block;		
 	font-family:Dancing;
 	font-size:30px;
 }
-#delice p{	
+#delice h2{	
 	background:-webkit-gradient(linear,left top,right bottom, from(#0431DF), to(#0887FB));	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;
-	font-size:40px;	
-	padding-left:10px;
+	font-size:35px;		
+	text-align:center;
 }
 #delice h3{
 	color:#0228DD;	
@@ -640,17 +641,17 @@ h2{
 	margin-right:40px;
 }
 #palette{
-	display:flex;
-	justify-content:center;
+	display:block;	
 	font-family:merienda;
 	font-size:30px;
 }
-#palette p{	
+#palette h2{	
 	background:-webkit-gradient(linear,left top,right bottom, from(#3D9339), to(#C0FD87));
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:merienda;
 	font-size:30px;	
+	text-align:center;
 }
 #palette h3{
 	color:#3D923A;
