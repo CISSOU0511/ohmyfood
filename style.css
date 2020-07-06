@@ -586,7 +586,7 @@ h2{
 	font-size:50px;
 }
 #delice h2{	
-	background:-webkit-gradient(linear,left top,right bottom, from(#0431DF), to(#0887FB));	
+	background:-webkit-gradient(linear,left top,right bottom, from(#0431DF), to(#229DF9));	
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-family:dancing;
