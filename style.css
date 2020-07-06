@@ -726,10 +726,10 @@ h2{
 		font-size:30px;
 	}
 	#menu_3 #delice h2{
-		font-size:30px;
+		font-size:25px;
 	}
 	#menu_4 #palette h2{
-		font-size:30px;
+		font-size:25px;
 	}
 	#ne h2{
 		font-size:40px;
@@ -910,7 +910,7 @@ h2{
 		display:block;
 	}		
 	#prochainement{
-		width:70%;
+		width:80%;
 	}
 	#mentions{
 		margin-left:10px;
