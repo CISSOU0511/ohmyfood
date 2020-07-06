@@ -693,7 +693,205 @@ h2{
 .point{
 	font-size:30px;
 }
-@media all and (min-width:300px)and (max-width:600px){
+@media all and (min-width:300px)and (max-width:340px){
+	header{
+		font-size:25px;
+	}
+	footer{
+		font-size:15px;
+	}	
+	#prochainement{
+		width:80%;
+	}
+	#mentions{	
+		margin-left:20px;
+	}	
+	#contact{
+		margin-right:20px;
+	}
+	#bloc_1{
+		width:100%;
+		display:flex;
+		flex-direction:column;		
+		}
+	#bloc_2{
+		width:100%;
+		display:flex;
+		flex-direction:column;	
+		}
+	#couleur{	    
+		margin-left:15px;
+		margin-right:0px;
+		padding-bottom:0px;
+	}
+	#ne h2{
+		font-size:25px;
+	}
+	#ne p{
+		font-size:13px;
+	}	
+	.entree {
+		margin-left:0px;		
+	}
+	.plat{
+		margin-left:0px;
+	}
+	.dessert{
+		margin-left:0px;
+	}	
+	.prix{
+		margin-right:0px;
+	}
+	#menu_2 #chic h2{
+		font-size:25px;
+	}
+	#menu_3 #delice h2{
+		font-size:20px;
+	}
+	#menu_4 #palette h2{
+		font-size:20px;
+	}
+	#ne .titre_1 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#ne .titre_2 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#ne .titre_3 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#musique img{
+		width:15%;
+	}
+	#titre_4 #musique img{
+		width:25%;
+		margin-bottom:50px;
+		margin-top:20px;
+	}	
+	#chic h2{
+		font-size:25px;
+	}
+	#le_chic .titre_1 h3{
+		font-size:14px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_chic .titre_2 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_chic .titre_3 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_1 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_2 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#le_delice .titre_3 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#delice h2{
+		font-size:30px;		
+	}
+	#la_palette .titre_1 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#la_palette .titre_2 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#la_palette .titre_3 h3{
+		font-size:15px;
+		display:flex;
+		justify-content:center;
+	}
+	#palette h2{
+		font-size:25px;
+	}
+	.trait{
+		width:25%;		
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.losange{
+		width:15%;
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.virgule{
+		width:15%;
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.vague{
+		width:15%;
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.entree{
+		margin:5px;
+	}
+	.entree_1{
+		margin:10px;
+	}
+	.entree_2{
+		margin:10px;
+	}
+	.entree_3{
+		margin:10px;
+	}
+	.plat{
+		margin:5px;
+	}
+	.plat_1{
+		margin:10px;
+	}
+	.plat_2{
+		margin:10px;
+	}
+	.plat_3{
+		margin:10px;
+	}
+	.dessert{
+		margin:5px;
+	}
+	.dessert_1{
+		margin:10px;
+	}
+	.dessert_2{
+		margin:10px;
+	}
+	.dessert_3{
+		margin:10px;
+	}
+	.prix{
+		margin-right:0px;
+	}
+	p{
+		font-size:12px;
+	}
+}
+@media all and (min-width:341px)and (max-width:600px){
 	header{
 		font-size:30px; 
 	}                   
