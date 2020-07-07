@@ -746,10 +746,10 @@ h2{
 		font-size:25px;
 	}
 	#menu_3 #delice h2{
-		font-size:20px;
+		font-size:30px;
 	}
 	#menu_4 #palette h2{
-		font-size:20px;
+		font-size:30px;
 	}
 	#ne .titre_1 h3{
 		font-size:15px;
@@ -924,10 +924,10 @@ h2{
 		font-size:30px;
 	}
 	#menu_3 #delice h2{
-		font-size:25px;
+		font-size:35px;
 	}
 	#menu_4 #palette h2{
-		font-size:25px;
+		font-size:30px;
 	}
 	#ne h2{
 		font-size:40px;
@@ -953,6 +953,9 @@ h2{
 		font-size:35px;
 		margin-left:0px;
 		margin-right:0px;
+	}
+	#palette h2{
+		font-size:28px;
 	}
 	#palette p{
 		font-size:30px;
@@ -1168,7 +1171,7 @@ h2{
 	}	
 	#note h2{
 		font-size:30px;
-		margin-top:0px;
+		margin-top:25px;
 	}
 	#chic p{
 		font-size:40px;		
