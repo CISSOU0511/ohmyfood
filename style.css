@@ -512,7 +512,7 @@ h2{
 #chic h2{
 	display:block;	
 	font-family:roboto;
-	background:-webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
+	background:-webkit-gradient(linear,left top,right bottom, from(#C77529), to(#8F5BFE));
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	font-size:30px;	
