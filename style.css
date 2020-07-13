@@ -47,6 +47,46 @@ footer a{
 h4 {
 	color:#FFCE00;
 }
+#prochainement{
+	display:flex;
+	justify-content:center;
+	background-color:#579C87;
+	color:#FFCE00;		
+	width:50%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:50px;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:30px;	
+	border-radius:10px 10px 10px 10px;
+}
+@keyframes blink{
+	0%{
+		opacity:0.2;
+	}
+	20%{
+		opacity:1;
+	}
+	100%{
+		opacity:0.2;
+	}
+}
+.point{
+	animation-name:blink;
+	animation-duration:1.4s;
+	animation-iteration-count:infinite;
+	animation-fill-mode:both;
+}
+.point:nth-child(2){
+	animation-delay:0.2s;
+}
+.point:nth-child(3){
+	animation-delay:0.4s;
+}
+.point{
+	font-size:30px;
+}
 #mentions{
 	margin-left:50px;
 }
@@ -66,8 +106,7 @@ h4 {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-.shake a:hover,.shake a:focus{
-	 
+.shake a:hover,.shake a:focus{	 
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
@@ -224,13 +263,12 @@ h1{
 #page #musique img{
 	width:20%;	
 }
-/*fin de index*/
-.titre_1, .titre_2, .titre_3{
+.titre{
 	display:flex;
 	justify-content:space-between;
 	margin:auto;
 }
-.titre_1 .titre_2 .titre_3 h3{
+.titre h3{
 	display:flex;
 	justify-content:center;	
 }
@@ -241,71 +279,71 @@ h1{
   position: relative;
 }
 #note_enchante .titre_1 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
 }
 #note_enchante .titre_1 h3{
 	font-size:30px;
 }
 #note_enchante .titre_1 h3:hover {
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #note_enchante .titre_2 h3{
 	font-size:30px;
 }
 #note_enchante .titre_2 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  background:-webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  background:-moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	background:-webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	background:-moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
 }
 #note_enchante .titre_2 h3:hover {
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #note_enchante .titre_3 h3{
 	font-size:30px;
 }
 #note_enchante .titre_3 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  background: -webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  background: -moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	background: -webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	background: -moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
 }
 #note_enchante .titre_3 h3:hover {
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_chic .titre_1 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(199, 117, 41) 0%, rgb(199, 117, 41) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
+	transition: background-size .5s;
 }
 #le_chic .titre_1 h3:hover {
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_chic .titre_1 h3{
 	font-size:30px;
 }
 #le_chic .titre_2 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(175, 93, 155) 0%, rgb(175, 93, 155) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;  
+	transition: background-size .5s;
 }
 #le_chic .titre_2 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_chic .titre_2 h3{
 	font-size:30px;
 }
 #le_chic .titre_3 h3{
-  text-decoration: none;
-  background: linear-gradient(to top, rgb(121, 48, 211) 0%, rgb(121, 48, 211) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-  transition: background-size .5s;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(121, 48, 211) 0%, rgb(121, 48, 211) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
 }
 #le_chic .titre_3 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_chic .titre_3 h3{
 	font-size:30px;
@@ -316,7 +354,7 @@ h1{
     transition: background-size .5s;
 }
 #le_delice .titre_1 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_delice .titre_1 h3{
 	font-size:30px;
@@ -327,7 +365,7 @@ h1{
     transition: background-size .5s;
 }
 #le_delice .titre_2 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_delice .titre_2 h3{
 	font-size:30px;
@@ -338,7 +376,7 @@ h1{
     transition: background-size .5s;
 }
 #le_delice .titre_3 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #le_delice .titre_3 h3{
 	font-size:30px;
@@ -349,7 +387,7 @@ h1{
     transition: background-size .5s;
 }
 #la_palette .titre_1 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #la_palette .titre_1 h3{
 	font-size:30px;
@@ -360,7 +398,7 @@ h1{
     transition: background-size .5s;
 }
 #la_palette .titre_2 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #la_palette .titre_2 h3{
 	font-size:30px;
@@ -371,7 +409,7 @@ h1{
     transition: background-size .5s;
 }
 #la_palette .titre_3 h3:hover{
-  background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 #la_palette .titre_3 h3{
 	font-size:30px;
@@ -401,6 +439,7 @@ p{
 .dessert{
 	margin-left:50px;
 }
+/*fin de index*/
 #couleur{	
 	background-color:#FCDFDB;
 	width:90%;
@@ -485,9 +524,7 @@ h2{
 	margin-bottom:100px;	
 	margin-left:50px;
 	margin-right:50px;
-	padding-bottom:50px;
-	/*width:90%;*/
-	/*margin-bottom:50px;*/
+	padding-bottom:50px;	
 }
 #menu_2{
 	font-family:baskerville;
@@ -513,10 +550,7 @@ h2{
     background: -webkit-linear-gradient(315deg, #C77529 0%, #A56799 60%, #6E4CCC 80%);
     background: -moz-linear-gradient(315deg, #C77529 0%, #A56799 60%, #6E4CCC 80%);
     -webkit-background-clip: text;
-    color: transparent;
-	/*background:-webkit-gradient(linear,left top,right bottom, from(#C77529), to(#8F5AFF));
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/
+    color: transparent;	
 	font-size:30px;	
 	text-align:center;
 }
@@ -556,12 +590,7 @@ h2{
 	margin-bottom:100px;	
 	margin-left:50px;
 	margin-right:50px;
-	padding-bottom:50px;
-	/*width:90%;
-	margin-bottom:50px;
-	margin-left:50px;
-	margin-right:50px;
-	padding-bottom:50px;*/
+	padding-bottom:50px;	
 }
 .entree_2{
 	display:flex;
@@ -677,46 +706,6 @@ h2{
 	font-family:merienda;
 }
 /*fin de palette*/
-#prochainement{
-	display:flex;
-	justify-content:center;
-	background-color:#579C87;
-	color:#FFCE00;		
-	width:50%;
-	padding-top:10px;
-	padding-bottom:10px;
-	margin-bottom:50px;
-	margin-right:auto;
-	margin-left:auto;
-	font-size:30px;	
-	border-radius:10px 10px 10px 10px;
-}
-@keyframes blink{
-	0%{
-		opacity:0.2;
-	}
-	20%{
-		opacity:1;
-	}
-	100%{
-		opacity:0.2;
-	}
-}
-.point{
-	animation-name:blink;
-	animation-duration:1.4s;
-	animation-iteration-count:infinite;
-	animation-fill-mode:both;
-}
-.point:nth-child(2){
-	animation-delay:0.2s;
-}
-.point:nth-child(3){
-	animation-delay:0.4s;
-}
-.point{
-	font-size:30px;
-}
 @media all and (min-width:300px)and (max-width:340px){
 	header{
 		font-size:25px;
@@ -754,7 +743,7 @@ h2{
 	#note_enchante p{
 		font-size:13px;
 	}	
-	.entree {
+	.entree{
 		margin-left:0px;		
 	}
 	.plat{
@@ -801,54 +790,24 @@ h2{
 	#chic h2{
 		font-size:25px;
 	}
-	#le_chic .titre_1 h3{
-		font-size:14px;
+	#le_chic .titre h3{
+		font-size:15px; 
 		display:flex;
 		justify-content:center;
-	}
-	#le_chic .titre_2 h3{
-		font-size:15px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_chic .titre_3 h3{
-		font-size:15px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_delice .titre_1 h3{
+	}	
+	#le_delice .titre h3{
 		font-size:12px;
 		display:flex;
 		justify-content:center;
-	}
-	#le_delice .titre_2 h3{
-		font-size:12px;
-		display:flex;
-		justify-content:center;
-	}
-	#le_delice .titre_3 h3{
-		font-size:12px;
-		display:flex;
-		justify-content:center;
-	}
+	}	
 	#delice h2{
 		font-size:30px;		
 	}
-	#la_palette .titre_1 h3{
+	#la_palette .titre h3{
 		font-size:12px;
 		display:flex;
 		justify-content:center;
-	}
-	#la_palette .titre_2 h3{
-		font-size:12px;
-		display:flex;
-		justify-content:center;
-	}
-	#la_palette .titre_3 h3{
-		font-size:12px;
-		display:flex;
-		justify-content:center;
-	}
+	}	
 	#palette h2{
 		font-size:25px;
 	}
