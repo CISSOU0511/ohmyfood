@@ -74,8 +74,7 @@ h4 {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-.shake:hover,
-.shake:focus {
+.shake:hover,.shake:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
@@ -107,7 +106,6 @@ h1{
 	color:#FFCE00;
 	width:100%;	
 }
-/*fin de header*/
 #menu{
 	font-family:merienda;	
 }
@@ -242,41 +240,41 @@ h1{
 .titre_1 h3{
   position: relative;
 }
-#ne .titre_1 h3{
+#note_enchante .titre_1 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-#ne .titre_1 h3{
+#note_enchante .titre_1 h3{
 	font-size:30px;
 }
-#ne .titre_1 h3:hover {
+#note_enchante .titre_1 h3:hover {
   background-size: 100% 100%;
 }
-#ne .titre_2 h3{
+#note_enchante .titre_2 h3{
 	font-size:30px;
 }
-#ne .titre_2 h3{
+#note_enchante .titre_2 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   background:-webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   background:-moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-#ne .titre_2 h3:hover {
+#note_enchante .titre_2 h3:hover {
   background-size: 100% 100%;
 }
-#ne .titre_3 h3{
+#note_enchante .titre_3 h3{
 	font-size:30px;
 }
-#ne .titre_3 h3{
+#note_enchante .titre_3 h3{
   text-decoration: none;
   background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   background: -webkit-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   background: -moz-linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
   transition: background-size .5s;
 }
-#ne .titre_3 h3:hover {
+#note_enchante .titre_3 h3:hover {
   background-size: 100% 100%;
 }
 #le_chic .titre_1 h3{
@@ -412,19 +410,22 @@ p{
 	margin-right:50px;
 	padding-bottom:50px;
 }
-#musique{
+#note_enchante .musique img{
+	width:8%;
+}
+.musique{
 	display:flex;
 	justify-content:center;	
 }
-#musique img{	
-	width:8%;	
+#page .musique img{	
+	width:25%;	
 	background-color:#FCDFDB;
 }
-#titre_4 #musique{
+#titre_4 .musique{
 	display:block;
 	width:35%;
 }
-#titre_4 #musique img{
+#titre_4 .musique img{
 	float:right;
 	width:10%;
 	padding-right:10px;
@@ -434,14 +435,14 @@ p{
 #titre_4 h2{
 	display:block;	
 }
-#note{
+.note{
 	font-family:Devonshire;
 	font-size:30px;
 	color:#410D16;
 	display:flex;
 	justify-content:center;
 }
-#note a{
+.note a{
 	background:#410D16;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;	
@@ -452,30 +453,26 @@ p{
 	margin-left:40px;
 	margin-right:40px;
 }
-#note h2{
+.note h2{
 	margin-top:10px;	
 }
 #menu_1{
 	background-color:#FCDFDB;
 	font-family:merienda;	
 }
+#note h2{
+	font-family:Devonshire;
+	font-size:30px;
+	color:#410D16;
+}
 h2{
 	display:block;
 	font-size:30px;
 	text-align:center;
 }
-#ne h2{
+#note_enchante h2{
 	font-size:50px;
 	text-align:center;
-}
-#le_chic h2{
-	font-size:50px;
-}
-#le_delice h2{
-	font-size:50px;
-}
-#la_palette h2{
-	font-size:50px;
 }
 #titre_4{
 	display:flex;
@@ -512,11 +509,19 @@ h2{
 #chic h2{
 	display:block;	
 	font-family:roboto;
-	background:-webkit-gradient(linear,left top,right bottom, from(#C77529), to(#8F5AFF));
+	background: linear-gradient(315deg, #C77529 0%, #C56799 60%, #6E4CCC 80%);
+    background: -webkit-linear-gradient(315deg, #C77529 0%, #A56799 60%, #6E4CCC 80%);
+    background: -moz-linear-gradient(315deg, #C77529 0%, #A56799 60%, #6E4CCC 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+	/*background:-webkit-gradient(linear,left top,right bottom, from(#C77529), to(#8F5AFF));
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color:transparent;*/
 	font-size:30px;	
 	text-align:center;
+}
+#le_chic h2{
+	font-size:50px;
 }
 .entree_1{
 	display:flex;
@@ -585,7 +590,7 @@ h2{
 }
 #menu_h2{
 	  font-size:50px;
-  }
+}
 #delice{
 	display:block;		
 	font-family:Dancing;
@@ -601,6 +606,9 @@ h2{
 	font-family:dancing;
 	font-size:35px;		
 	text-align:center;
+}
+#le_delice h2{
+	font-size:50px;
 }
 #delice h3{
 	color:#0228DD;	
@@ -660,6 +668,9 @@ h2{
 	font-family:merienda;
 	font-size:30px;	
 	text-align:center;
+}
+#la_palette h2{
+	font-size:50px;
 }
 #palette h3{
 	color:#3D923A;
@@ -737,10 +748,10 @@ h2{
 		margin-right:0px;
 		padding-bottom:0px;
 	}
-	#ne h2{
+	#note_enchante h2{
 		font-size:25px;
 	}
-	#ne p{
+	#note_enchante p{
 		font-size:13px;
 	}	
 	.entree {
@@ -764,17 +775,17 @@ h2{
 	#menu_4 #palette h2{
 		font-size:30px;
 	}
-	#ne .titre_1 h3{
+	#note_enchante .titre_1 h3{
 		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
-	#ne .titre_2 h3{
+	#note_enchante .titre_2 h3{
 		font-size:15px;
 		display:flex;
 		justify-content:center;
 	}
-	#ne .titre_3 h3{
+	#note_enchante .titre_3 h3{
 		font-size:15px;
 		display:flex;
 		justify-content:center;
@@ -782,7 +793,7 @@ h2{
 	#musique img{
 		width:15%;		
 	}
-	#titre_4 #musique img{
+	#titre_4 .musique img{
 		width:25%;
 		margin-bottom:50px;
 		margin-top:20px;
@@ -951,17 +962,6 @@ h2{
 	#couleur{
 		margin-left:20px;
 	}
-	/*#couleur_1{
-		margin-left:18px;
-		margin-top:25px;
-	}	
-	#couleur_2{
-		margin-left:18px;
-		margin-top:25px;
-	}
-	#couleur_3{
-		margin-top:25px;
-	}*/
 	#delice p{
 		font-size:35px;
 		margin-left:0px;
@@ -978,7 +978,7 @@ h2{
 	#menu_2 #chic p{
 		font-size:30px;
 	}
-	#titre_4 #musique img{
+	#titre_4 .musique img{
 		width:20%;		
 	}	
 	#note h2{
@@ -1027,17 +1027,17 @@ h2{
 	p{
 		font-size:12px;
 	}
-	#ne .titre_1 h3{
+	#note_enchante .titre_1 h3{
 		font-size:18px;
 		display:flex;
 		justify-content:center;
 	}
-	#ne .titre_2 h3{
+	#note_enchante .titre_2 h3{
 		font-size:18px;
 		display:flex;
 		justify-content:center;
 	}
-	#ne .titre_3 h3{
+	#note_enchante .titre_3 h3{
 		font-size:18px;
 		display:flex;
 		justify-content:center;
@@ -1179,7 +1179,7 @@ h2{
 	#couleur_3{
 		margin-top:25px;
 		}
-	#titre_4 #musique img{
+	#titre_4 .musique img{
 		width:20%;		
 		}	
 	#note h2{
@@ -1198,17 +1198,17 @@ h2{
 	p{
 		font-size:15px;
 		}
-	#ne .titre_1 h3{
+	#note_enchante .titre_1 h3{
 		font-size:20px;		
 		display:flex;
 		justify-content:center;
 		}
-	#ne .titre_2 h3{
+	#note_enchante .titre_2 h3{
 		font-size:20px;
 		display:flex;
 		justify-content:center;
 		}
-	#ne .titre_3 h3{
+	#note_enchante .titre_3 h3{
 		font-size:20px;
 		display:flex;
 		justify-content:center;
