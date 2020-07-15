@@ -712,7 +712,11 @@ h2{
 	}
 	footer{
 		font-size:15px;
-	}	
+	}
+	#couleur_1{
+		width:100%;
+		margin-left:0px;
+	}
 	#prochainement{
 		width:80%;
 	}
@@ -891,6 +895,10 @@ h2{
 		display:flex;
 		flex-direction:column;	
 		}
+	#couleur_1{
+		width:100%;
+		margin-left:0px;
+	}
 	#page{
 		width:100%;
 	}
