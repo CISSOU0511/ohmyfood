@@ -279,18 +279,21 @@ h1{
   position: relative;
 }
 #note_enchante .titre_1 h3{
+	font-size:30px;
+}
+#note_enchante .titre_2 h3{
+	font-size:30px;
+}
+#note_enchante .titre_3 h3{
+	font-size:30px;
+}
+#note_enchante .titre_1 h3{
 	text-decoration: none;
 	background: linear-gradient(to top, rgb(65, 13, 22) 0%, rgb(65, 13, 22) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
 	transition: background-size .5s;
 }
-#note_enchante .titre_1 h3{
-	font-size:30px;
-}
 #note_enchante .titre_1 h3:hover {
 	background-size: 100% 100%;
-}
-#note_enchante .titre_2 h3{
-	font-size:30px;
 }
 #note_enchante .titre_2 h3{
 	text-decoration: none;
@@ -299,9 +302,6 @@ h1{
 }
 #note_enchante .titre_2 h3:hover {
 	background-size: 100% 100%;
-}
-#note_enchante .titre_3 h3{
-	font-size:30px;
 }
 #note_enchante .titre_3 h3{
 	text-decoration: none;
