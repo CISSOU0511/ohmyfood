@@ -95,7 +95,7 @@ h4 {
 	font-size:30px;
 }
 #mentions{
-	margin-left:50px;	
+	margin-left:50px;
 }
 #contact{
 	margin-right:50px;
@@ -139,6 +139,7 @@ h4 {
 	justify-content:center;
 	color:#FFCE00;
 	font-size:20px;
+	padding-bottom:60px;
 }
 .info{
 	color:#FFCE00;
